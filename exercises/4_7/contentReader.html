@@ -15,21 +15,22 @@
         <section>
             <h4>Preferências</h5>
             <ul>
-                <li>Cor de fundo da tela: <input type="color" id="cor-tela">
+                <li>Cor de fundo da tela: <input type="color" id="cor-fundo-tela">
                 <li>Cor do texto: <input type="color" id="cor-texto">
                 <li>Tamanho da fonte: <input type="number" id="tamanho-fonte">
                 <li>Espaçamento entre as linhas do texto: <input type="number" id="espacamento-linhas">
                 <li>Tipo da fonte (Font family): <input type="text" id="tipo-da-fonte">
-            </ul>            
+            </ul>
+            <button>Customizar!</button>
         </section>
 
         <script>
             window.onload = function(){
-            let corDeFundoDaTela;
-            let corDoTexto;
-            let tamanhoDaFonte;
-            let espacamentoEntreLinhas;
-            let tipoDaFonte;
+            let corDeFundoDaTela; //background-color
+            let corDoTexto; //color
+            let tamanhoDaFonte; //font-size
+            let espacamentoEntreLinhas; //line-height
+            let tipoDaFonte; //font-family
 
             //usar localStorage
 
