@@ -9,4 +9,3 @@ var playerNumber = 16;
 var player = testObj[playerNumber];
 
 console.log(player);
-  
