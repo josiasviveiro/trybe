@@ -12,6 +12,7 @@ const lesson2 = {
   materia: 'História',
   numeroEstudantes: 20,
   professor: 'Carlos',
+  turno: 'noite',
 };
 
 const lesson3 = {
