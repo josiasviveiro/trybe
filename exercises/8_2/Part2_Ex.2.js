@@ -23,7 +23,7 @@ const lesson3 = {
 const listKeys = (lesson) => {
   const arrayOfKeys = Object.keys(lesson);
   for(i in arrayOfKeys){
-    console.log(`${arrayOfKeys[i]}, Nível: ${lesson[arrayOfKeys[i]]}`);
+    console.log(`${arrayOfKeys[i]}: ${lesson[arrayOfKeys[i]]}`);
   }
   console.log('');
 };
